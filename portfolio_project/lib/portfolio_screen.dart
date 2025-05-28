@@ -47,6 +47,26 @@ class PortfolioScreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(
+              height: 24,
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text('Download Resume'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color(0xFFFF6464),
+                foregroundColor: Color(0xFFFFFFFF),
+                textStyle: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(2),
+                ),
+                fixedSize: Size(208, 47),
+                padding: EdgeInsets.zero,
+              ),
+            ),
           ],
         ),
       ),
