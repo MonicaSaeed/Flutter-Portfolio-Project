@@ -7,7 +7,17 @@ class PortfolioScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(),
+        child: Column(
+          children: [
+            SizedBox(
+              height: 82,
+            ),
+            CircleAvatar(
+              radius: 80,
+              backgroundImage: AssetImage('assets/images/me.jpg'),
+            )
+          ],
+        ),
       ),
     );
   }
